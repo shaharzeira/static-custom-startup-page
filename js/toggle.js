@@ -7,7 +7,6 @@ function setupToggle() {
   toggleDetails.addEventListener('toggle', () => {
     const isOpen = toggleDetails.open;
     arrow.textContent = isOpen ? '▼' : '►';
-    label.textContent = 'Show Quick Links';
 
     if (isOpen) {
       displayLinks(gridContainer, linksData);
