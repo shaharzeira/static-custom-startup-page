@@ -7,7 +7,7 @@ function createCard(link) {
 
   card.className = `${CARD_WIDTH_CLASS} bg-white py-1 px-1 rounded-lg shadow-[0_0px_2px_rgba(0,0,0,0.8)] 
   transition transform hover:-translate-y-1 flex 
-  ${USE_VERTICAL_LAYOUT ? 'flex-col space-y-0 text-center' : 'items-center space-x-4'} items-center justify-center`;
+  ${USE_VERTICAL_LAYOUT ? 'flex-col text-center' : 'items-center space-x-4'} items-center justify-center`;
 
   const img = document.createElement('img');
   img.src = link.image;
