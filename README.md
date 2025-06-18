@@ -1,5 +1,7 @@
 # Quick Links Dashboard
 
+![Screenshot of the Dashboard](./screenshot.png)
+
 This project displays a customizable grid of quick access link buttons that can be used as a custom browser start page.
 
 ---
