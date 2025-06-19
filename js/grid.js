@@ -1,5 +1,5 @@
 function displayLinks(container, links) {
-  const maxButtonsPerRow = Math.max(...linksData.map(row => row.length));
+  const maxButtonsPerRow = Math.max(...linksInfo.map(row => row.length));
 
   container.innerHTML = '';
 

@@ -9,7 +9,7 @@ function setupToggle() {
     arrow.textContent = isOpen ? '▼' : '►';
 
     if (isOpen) {
-      displayLinks(gridContainer, linksData);
+      displayLinks(gridContainer, linksInfo);
     } else {
       gridContainer.innerHTML = '';
     }

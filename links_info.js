@@ -1,5 +1,5 @@
 // Link data (originally from links.json)
-const linksData = [
+const linksInfo = [
   [
     {
       label: "Google",

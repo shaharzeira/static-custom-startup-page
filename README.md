@@ -10,11 +10,11 @@ This project displays a customizable grid of quick access link buttons that can 
 
 To personalize the dashboard:
 
-1. **Edit the grid structure in `data.js`**  
-   Each group in `linksData` defines a row of link cards.
+1. **Edit the grid structure in `links_info.js`**  
+   Each group in `linksInfo` defines a row of link cards.
 
 2. **Add your own images**  
-   Place your logo/icon files in the `images/` folder and reference their paths in `data.js`.
+   Place your logo/icon files in the `images/` folder and reference their paths in `links_info.js`.
 
 ---
 
