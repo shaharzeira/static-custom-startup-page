@@ -18,7 +18,7 @@ To personalize the dashboard:
 
 ---
 
-## 🚀 How to Use
+## 🚀 Set as Homepage
 
 1. **Download or clone this project**  
 
