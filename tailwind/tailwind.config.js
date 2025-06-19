@@ -1,9 +1,9 @@
 module.exports = {
   content: [
-    ".\\*.html",
-    ".\\*.js",
-    ".\\js\\*.js",
-    ".\\tailwind\\*.css"
+    "..\\*.html",
+    "..\\*.js",
+    "..\\js\\*.js",
+    "..\\tailwind\\*.css"
   ],
   plugins: [
     require("@tailwindcss/typography"),
