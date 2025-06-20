@@ -2,7 +2,7 @@ const linksInfo = [
   [
     {
       label: "Google",
-      image: "images/google.png",
+      image: "images/g.png",
       url: "https://www.google.com"
     },
     {
@@ -17,7 +17,7 @@ const linksInfo = [
     },
     {
       label: "Gmail",
-      image: "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
+      image: "images/gmail.ico",
       url: "https://mail.google.com"
     },
   ],
