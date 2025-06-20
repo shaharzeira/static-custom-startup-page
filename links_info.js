@@ -1,4 +1,3 @@
-// Link data (originally from links.json)
 const linksInfo = [
   [
     {
