@@ -5,7 +5,7 @@ function createCard(link) {
   card.href = link.url;
   card.target = '_blank';
 
-  card.className = `${CARD_WIDTH_CLASS} bg-white py-1 pt-1.5 px-1 rounded-lg shadow-[0_1px_3px_rgba(0,0,0,0.3)] 
+  card.className = `${CARD_WIDTH_CLASS} bg-white py-1 px-1 rounded-lg shadow-[0_1px_3px_rgba(0,0,0,0.3)] 
   transition transform hover:-translate-y-1 flex 
   ${USE_VERTICAL_LAYOUT ? 'flex-col space-y-1 text-center' : 'items-center space-x-4'} items-center justify-center`;
 
