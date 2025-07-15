@@ -8,6 +8,12 @@ To install **Tailwind CSS v3.4.4**, use the following command:
    ```bash
    npm install tailwindcss@3.4.4
    ```
+   
+   also install the following :
+   
+   ```bash
+   npm install @tailwindcss/typography @tailwindcss/forms @tailwindcss/aspect-ratio
+   ```
 ---
 
 ## ⚡ Compilation Process
@@ -26,10 +32,15 @@ To install **Tailwind CSS v3.4.4**, use the following command:
    <script src="https://cdn.tailwindcss.com/3.4.4?plugins=forms,typography,aspect-ratio"></script>
    ```
    
+   firt change directory to tailwind: 
+   ```bash
+   cd tailwind
+   ```
+   
    then build:
    
    ```bash
-   npx tailwindcss -i tailwind/input.css -o tailwind/tailwind.css --minify --watch
+   npx tailwindcss -i input.css -o tailwind.css --watch
    ```
 
    then switch back to:
