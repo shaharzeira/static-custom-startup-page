@@ -30,5 +30,3 @@ To personalize the dashboard:
 
 4. **Paste this path into your browser’s settings**  
    Look for the setting that allows a **custom URL for a new tab or homepage**, and paste the copied path.
-
----
