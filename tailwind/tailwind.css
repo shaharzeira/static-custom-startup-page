@@ -640,12 +640,12 @@ video {
   min-height: 100vh;
 }
 
-.w-\[12px\] {
-  width: 12px;
+.w-\[16px\] {
+  width: 16px;
 }
 
-.w-\[184px\] {
-  width: 184px;
+.w-\[176px\] {
+  width: 176px;
 }
 
 .w-full {
