@@ -14,7 +14,7 @@ To personalize the dashboard:
    Each group in `linksInfo` defines a row of link cards.
 
 2. **Add your own images**  
-   Place your logo/icon files in the `images/` folder and reference their paths in `links_info.js`.
+   Place your logo/icon files in the `links-images/` folder and reference their paths in `links_info.js`.
 
 ---
 
