@@ -16,34 +16,32 @@ To install **Tailwind CSS v3.4.4**, use the following command:
    ```
 ---
 
+## 💡 Development Tip
+
+During development, it is recommended to **uncomment** the following line in `cdn.js` for easier testing without rebuilding Tailwind:
+
+```javascript
+// document.head.insertBefore(script, document.head.firstChild);
+```
+
+⚠ **Important:** Re-comment the line above before deploying to production to ensure the compiled Tailwind CSS file is used.
+
+---
+
 ## ⚡ Compilation Process
 
-   switch between using the compiled version of Tailwind and a CDN version by commenting/uncommenting the appropriate line in your HTML file. switch thhe following:
-   
-   1. **The compiled version** (after building):
+First, change directory to the `tailwind` folder:  
+```bash
+cd tailwind
+```
 
-   ```html
-   <link rel="stylesheet" href="tailwind/tailwind.css">
-   ```
+Then build:  
+```bash
+npx tailwindcss -i input.css -o tailwind.css --watch
+```
 
-   2. **The CDN version** (without building):
+Finally, ensure your HTML file is set to use the compiled CSS:  
+```html
+<link rel="stylesheet" href="tailwind/tailwind.css">
+```
 
-   ```html
-   <script src="https://cdn.tailwindcss.com/3.4.4?plugins=forms,typography,aspect-ratio"></script>
-   ```
-   
-   firt change directory to tailwind: 
-   ```bash
-   cd tailwind
-   ```
-   
-   then build:
-   
-   ```bash
-   npx tailwindcss -i input.css -o tailwind.css --watch
-   ```
-
-   then switch back to:
-   ```html
-   <link rel="stylesheet" href="tailwind/tailwind.css">
-   ```
