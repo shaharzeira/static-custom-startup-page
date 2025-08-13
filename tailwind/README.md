@@ -24,7 +24,7 @@ During development, it is recommended to **uncomment** the following line in `cd
 // document.head.insertBefore(script, document.head.firstChild);
 ```
 
-⚠ **Important:** Re-comment the line above before deploying to production to ensure the compiled Tailwind CSS file is used.
+⚠ **Important:** Re-comment this line before deploying to production to ensure the compiled Tailwind CSS file is used.
 
 ---
 
@@ -39,9 +39,3 @@ Then build:
 ```bash
 npx tailwindcss -i input.css -o tailwind.css --watch
 ```
-
-Finally, ensure your HTML file is set to use the compiled CSS:  
-```html
-<link rel="stylesheet" href="tailwind/tailwind.css">
-```
-
