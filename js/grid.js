@@ -5,7 +5,7 @@ function displayLinks(container, links) {
 
   links.forEach(group => {
     const row = document.createElement('div');
-    row.className = 'grid gap-7 justify-center';
+    row.className = 'grid gap-6 justify-center';
     row.style.gridTemplateColumns = `repeat(${maxButtonsPerRow}, ${CARD_WIDTH_REM})`;
 
     group.forEach(link => {
