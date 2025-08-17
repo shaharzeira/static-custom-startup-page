@@ -657,10 +657,6 @@ video {
   width: 166px;
 }
 
-.w-\[16px\] {
-  width: 16px;
-}
-
 .w-full {
   width: 100%;
 }
@@ -703,6 +699,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .gap-2 {
@@ -846,9 +846,18 @@ video {
   font-size: 0.825rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .font-semibold {
@@ -857,6 +866,10 @@ video {
 
 .leading-none {
   line-height: 1;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
 
 .text-gray-800 {
